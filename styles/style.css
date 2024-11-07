@@ -142,32 +142,25 @@ ol {
 
 .search-form__checkbox:active + .search-form__pseudo-checkbox::before {
   content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
   display: block;
   width: 16px;
   height: 16px;
   background-color: #fff;
-  transform: translate(-50%, -50%);
+  margin: 1px 0 0 1px;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
   display: block;
   width: 16px;
   height: 16px;
   background-color: #fff;
-  transform: translate(-50%, -50%);
+  margin: 1px 0 0 1px;
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
-  width: 19px;
-  height: 19px;
+  width: 20px;
+  height: 20px;
   border: 1px solid #fff;
 }
 
