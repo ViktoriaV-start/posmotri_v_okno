@@ -154,12 +154,6 @@ ol {
   background-color: currentColor;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox {
-  border: 1px solid #1b1919;
-  outline: 1px solid currentColorhite;
-  background-color: currentColor;
-}
-
 .search-form__pseudo-checkbox {
   width: 20px;
   height: 20px;
